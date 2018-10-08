@@ -6,7 +6,10 @@ public class TestArray2 {
 		// TODO Auto-generated method stub
 		
 		
-		// Display average
+		
+		/**
+		 * Display average
+		 */
 		int[] tab = {1, 15, -3, 0, 8, 7, 4, -2, 28, 7, -1, 17, 2, 3, 0, 14, -4};
 		int somme = 0;
 		for (int i = 0; i < tab.length; i++) {
@@ -17,7 +20,10 @@ public class TestArray2 {
 		
 		
 		
-		// Display index 
+		
+		/**
+		 * Display index of 15
+		 */
 		int index = 15;
 		for (int i = 0; i < tab.length; i++) {
 			if (tab[i] == 15) {
@@ -31,8 +37,9 @@ public class TestArray2 {
 		
 		
 		
-		
-		// Display duplicate
+		/**
+		 * Display duplicate
+		 */
 		int nbDoublon = 0;
 		for (int i = 0; i < tab.length-1; i++) {
 			nbDoublon = tab[i];

@@ -8,25 +8,35 @@ public class TestArray1 {
 
 		int[] tab = { 1, 15, -3, 0, 8, 7, 4, -2, 28, 7, -1, 17, 2, 3, 0, 14, -4 };
 
-		// Loop for;
+		/** 
+		 * Loop for
+		 */
 		for (int i = 0; i < tab.length; i++) {
 			System.out.println(tab[i]);
 		}
-		;
 
-		// Loop for reverse
+
+		/**
+		 * Loop for reverse
+		 */
 		for (int i = tab.length - 1; i >= 0; i--) {
 			System.out.println(tab[i]);
 		}
 
-		// display number > 3
+		
+		/**
+		 *  Display number > 3
+		 */
 		for (int i = 0; i < tab.length; i++) {
 			if (tab[i] > 3) {
 				System.out.println(tab[i]);
 			}
 		}
 
-		// Display even integer
+		
+		/**
+		 * Display even integer
+		 */
 		for (int i = 0; i < tab.length; i++) {
 			if (tab[i] % 2 == 0) {
 				System.out.println(tab[i]);
@@ -35,8 +45,11 @@ public class TestArray1 {
 				
 		
 		
-		/* Le tableau ne doit pas être vide pour être pris en compte */
-		// Display bigger number
+		/* ! Le tableau ne doit pas être vide pour être pris en compte */
+		
+		/**
+		 * Display bigger number
+		 */
 		int resultat = Integer.MIN_VALUE; // C'est la valeur la plus petite (-2*10puissance 31)
 		for (int i = 0; i < tab.length; i++) {
 			int test = tab [i];
@@ -47,8 +60,9 @@ public class TestArray1 {
 		}
 		
 		
-		
-		// Display small number
+		/**
+		 * Display small number
+		 */
 		int result = Integer.MAX_VALUE;
 		for (int i = 0; i < tab.length; i++) {
 			if (tab[i] < result) {
